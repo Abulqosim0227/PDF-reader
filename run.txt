@@ -1,0 +1,14 @@
+### add OPENAI key in Linux
+
+export OPENAI_API_KEY="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"
+
+
+### add OPENAI key in Windows
+
+set OPENAI_API_KEY=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
+
+
+pip install langchain-experimental,langchain,streamlit,openai
+
+
+streamlit run pdf.py
